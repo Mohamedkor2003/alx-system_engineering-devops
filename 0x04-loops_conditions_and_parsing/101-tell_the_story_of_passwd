@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Displays the content of the file /etc/passwd
+# only displays username, user ID and home directory path for user.
 IFS=':'
 
 while read -r usr pswd uid gid uinfo hd csh
